@@ -12,7 +12,7 @@ class Test {
     }
 }
 
-// we can have only 1 public class
+// we can have only 1 public class. We cannot have a static class
 // <filename.java> ~ your public class
 public class Main {
 
@@ -45,7 +45,37 @@ public class Main {
 
         // TO CALL FUNCTION OF A DIFFERENT CLASS FROM A CLASS, YOU MUST CALL IT VIA CLASS
         Test.tfun2(); // hence tfun2() can't be called, but Test.tfun2() can be called!.
+
+        ////////////////////////////////////////////////////////////////////
+        /*
+        Recall in C++, how we call functions via objects:
+
+        class Test {
+        public:
+        int x;
+        };
+
+        int main() {
+        Test obj;
+        obj.x = 120;
+        cout << obj.x;
+
+        Test *obj2 = new Test();
+        obj2->x = 240;
+        cout << obj2->x;
+        }
+         */
+        ////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
     }
 
 }
+
+
+
 
