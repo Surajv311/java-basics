@@ -41,9 +41,9 @@ public class Main {
 
         Test obj2 = new Test();
 
-        obj2.tfun1(); // function needs object to be called
+        obj2.tfun1(); // normal public function needs object to be called
 
-        // TO CALL FUNCTION OF A DIFFERENT CLASS FROM A CLASS, YOU MUST CALL IT VIA CLASS
+        // TO CALL STATIC FUNCTION OF A DIFFERENT CLASS FROM A CLASS, YOU MUST CALL IT VIA CLASS
         Test.tfun2(); // hence tfun2() can't be called, but Test.tfun2() can be called!.
 
         ////////////////////////////////////////////////////////////////////
