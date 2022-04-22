@@ -2,7 +2,7 @@ package practice;
 
 
 
-public class Inheritance {
+public class Inheritance_4 {
 }
 
 

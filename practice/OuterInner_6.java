@@ -8,10 +8,11 @@ class OuterClass {
     }
 }
 
-public class OuterInner {
+public class OuterInner_6 {
     public static void main(String[] args) {
         OuterClass myOuter = new OuterClass();
-        OuterClass.InnerClass myInner = myOuter.new InnerClass();
+        OuterClass.InnerClass myInner = new OuterClass().new InnerClass();
+//        OuterClass.InnerClass myInner = myOuter.new InnerClass();
         System.out.println(myInner.y + myOuter.x);
     }
 }

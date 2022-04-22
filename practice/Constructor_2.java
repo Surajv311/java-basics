@@ -1,18 +1,18 @@
 package practice;
 
 // Example for a constructor
-public class Constructor {
+public class Constructor_2 {
 
     int a;
     String b;
 
-    public Constructor(int a, String y) {
+    public Constructor_2(int a, String y) {
         this.a = a; // USED this pointer
         b = y; // NOT USED this pointer...
     }
 
     public static void main(String[] args) {
-        Constructor x = new Constructor(1989, "Mustang");
+        Constructor_2 x = new Constructor_2(1989, "Mustang");
         System.out.println(x.a + " " + x.b);
     }
 }

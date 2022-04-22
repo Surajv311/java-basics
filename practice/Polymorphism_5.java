@@ -1,6 +1,6 @@
 package practice;
 
-public class Polymorphism {
+public class Polymorphism_5 {
 }
 
 class Animal {

@@ -14,7 +14,7 @@ class Test {
 
 // we can have only 1 public class. We cannot have a static class
 // <filename.java> ~ your public class
-public class Main {
+public class Main_1 {
 
     // public function
     public void mfun1(){
@@ -30,7 +30,7 @@ public class Main {
         // we can't have <public static int main...>
 
         // calling functions in same class
-        Main obj = new Main();
+        Main_1 obj = new Main_1();
 
         obj.mfun1(); // function needs object to be called
         mfun2(); // static function can be called without objects
@@ -65,11 +65,7 @@ public class Main {
         cout << obj2->x;
         }
          */
-        ////////////////////////////////////////////////////////////////////
-
-
-
-
+        ///////////////////////////////////////////////////////////////////
 
 
     }

@@ -1,6 +1,6 @@
 package practice;
 
-//public class Scan {
+//public class Scan_7 {
 //}
 
 import java.util.Scanner;
